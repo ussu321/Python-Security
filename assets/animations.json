@@ -1,0 +1,56 @@
+{
+  "boot_sequence": [
+    {
+      "delay": 0.1,
+      "text": "[BOOT] Initializing Ethical Hacking Python Kernel...",
+      "color": "#00ff41"
+    },
+    {
+      "delay": 0.1,
+      "text": "[BOOT] Loading security modules...",
+      "color": "#00ff41"
+    },
+    {
+      "delay": 0.1,
+      "text": "[BOOT] Mounting threat intelligence database...",
+      "color": "#00ff41"
+    },
+    {
+      "delay": 0.1,
+      "text": "[BOOT] AI Security Insight Engine: ONLINE",
+      "color": "#00f0ff"
+    },
+    {
+      "delay": 0.1,
+      "text": "[BOOT] System integrity check: PASSED",
+      "color": "#00ff41"
+    },
+    {
+      "delay": 0.1,
+      "text": "[BOOT] Welcome to the Ethical Hacking & Security Intelligence Platform",
+      "color": "#00f0ff"
+    }
+  ],
+  "soc_alerts": [
+    {
+      "type": "INTRUSION_DETECTION",
+      "color": "#ffaa00"
+    },
+    {
+      "type": "FIREWALL",
+      "color": "#ff0040"
+    },
+    {
+      "type": "MALWARE_SCAN",
+      "color": "#ffaa00"
+    },
+    {
+      "type": "NETWORK",
+      "color": "#ffaa00"
+    },
+    {
+      "type": "AUTH",
+      "color": "#ff0040"
+    }
+  ]
+}

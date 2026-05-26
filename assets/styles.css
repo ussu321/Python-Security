@@ -1,0 +1,280 @@
+/* Ethical Hacking Python - Cyberpunk Styles */
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
+
+:root {
+    --cyber-primary: #00f0ff;
+    --cyber-secondary: #00ff41;
+    --cyber-accent: #ff00ff;
+    --cyber-warning: #ffaa00;
+    --cyber-danger: #ff0040;
+    --cyber-dark: #0a0a0a;
+    --cyber-panel: #111111;
+    --cyber-text: #e0e0e0;
+    --cyber-grid: #222222;
+}
+
+body {
+    background-color: var(--cyber-dark);
+    color: var(--cyber-text);
+    font-family: 'Share Tech Mono', 'Courier New', monospace;
+}
+
+/* Neon glow effects */
+.neon-text {
+    color: var(--cyber-primary);
+    text-shadow: 0 0 5px var(--cyber-primary), 0 0 10px var(--cyber-primary), 0 0 20px var(--cyber-primary);
+}
+
+.neon-border {
+    border: 1px solid var(--cyber-primary);
+    box-shadow: 0 0 5px var(--cyber-primary), inset 0 0 5px var(--cyber-primary);
+}
+
+.neon-green {
+    color: var(--cyber-secondary);
+    text-shadow: 0 0 5px var(--cyber-secondary);
+}
+
+.neon-red {
+    color: var(--cyber-danger);
+    text-shadow: 0 0 5px var(--cyber-danger);
+}
+
+/* Terminal styling */
+.terminal {
+    background-color: var(--cyber-dark);
+    border: 1px solid var(--cyber-grid);
+    border-left: 3px solid var(--cyber-primary);
+    padding: 1rem;
+    font-family: 'Share Tech Mono', monospace;
+    color: var(--cyber-secondary);
+    overflow-x: auto;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
+
+.terminal-cursor::after {
+    content: '_';
+    animation: blink 1s step-end infinite;
+    color: var(--cyber-primary);
+}
+
+@keyframes blink {
+    50% { opacity: 0; }
+}
+
+/* Dashboard cards */
+.cyber-card {
+    background: linear-gradient(145deg, var(--cyber-panel), var(--cyber-dark));
+    border: 1px solid var(--cyber-grid);
+    border-radius: 8px;
+    padding: 1.2rem;
+    transition: all 0.3s ease;
+    position: relative;
+    overflow: hidden;
+}
+
+.cyber-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(90deg, transparent, var(--cyber-primary), transparent);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.cyber-card:hover::before {
+    opacity: 1;
+}
+
+.cyber-card:hover {
+    border-color: var(--cyber-primary);
+    box-shadow: 0 0 20px rgba(0, 240, 255, 0.15);
+    transform: translateY(-2px);
+}
+
+/* Scan line animation */
+.scan-line {
+    position: relative;
+    overflow: hidden;
+}
+
+.scan-line::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, transparent, rgba(0, 240, 255, 0.1), transparent);
+    animation: scan 3s linear infinite;
+}
+
+@keyframes scan {
+    0% { left: -100%; }
+    100% { left: 100%; }
+}
+
+/* Alert levels */
+.alert-cyber-critical {
+    background-color: rgba(255, 0, 64, 0.1);
+    border-left: 3px solid var(--cyber-danger);
+    color: var(--cyber-danger);
+    padding: 0.75rem 1rem;
+    margin: 0.5rem 0;
+    border-radius: 0 4px 4px 0;
+    font-weight: bold;
+}
+
+.alert-cyber-warning {
+    background-color: rgba(255, 170, 0, 0.1);
+    border-left: 3px solid var(--cyber-warning);
+    color: var(--cyber-warning);
+    padding: 0.75rem 1rem;
+    margin: 0.5rem 0;
+    border-radius: 0 4px 4px 0;
+}
+
+.alert-cyber-info {
+    background-color: rgba(0, 240, 255, 0.1);
+    border-left: 3px solid var(--cyber-primary);
+    color: var(--cyber-primary);
+    padding: 0.75rem 1rem;
+    margin: 0.5rem 0;
+    border-radius: 0 4px 4px 0;
+}
+
+.alert-cyber-safe {
+    background-color: rgba(0, 255, 65, 0.1);
+    border-left: 3px solid var(--cyber-secondary);
+    color: var(--cyber-secondary);
+    padding: 0.75rem 1rem;
+    margin: 0.5rem 0;
+    border-radius: 0 4px 4px 0;
+}
+
+/* Grid background pattern */
+.grid-bg {
+    background-image: 
+        linear-gradient(rgba(0, 240, 255, 0.03) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(0, 240, 255, 0.03) 1px, transparent 1px);
+    background-size: 20px 20px;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: var(--cyber-dark);
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--cyber-grid);
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: var(--cyber-primary);
+}
+
+/* Button cyber style */
+.btn-cyber {
+    background-color: transparent;
+    color: var(--cyber-primary);
+    border: 1px solid var(--cyber-primary);
+    padding: 0.5rem 1.5rem;
+    font-family: 'Share Tech Mono', monospace;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    overflow: hidden;
+}
+
+.btn-cyber:hover {
+    background-color: rgba(0, 240, 255, 0.1);
+    box-shadow: 0 0 15px rgba(0, 240, 255, 0.4);
+    text-shadow: 0 0 8px var(--cyber-primary);
+}
+
+/* Progress bar */
+.progress-cyber {
+    background-color: var(--cyber-panel);
+    border-radius: 4px;
+    overflow: hidden;
+    height: 8px;
+}
+
+.progress-cyber-fill {
+    height: 100%;
+    background: linear-gradient(90deg, var(--cyber-primary), var(--cyber-secondary));
+    transition: width 0.5s ease;
+}
+
+/* Table styling */
+.cyber-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 0.85rem;
+}
+
+.cyber-table th {
+    background-color: var(--cyber-panel);
+    color: var(--cyber-primary);
+    padding: 0.75rem;
+    text-align: left;
+    border-bottom: 2px solid var(--cyber-grid);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.cyber-table td {
+    padding: 0.6rem 0.75rem;
+    border-bottom: 1px solid var(--cyber-grid);
+    color: var(--cyber-text);
+}
+
+.cyber-table tr:hover td {
+    background-color: rgba(0, 240, 255, 0.05);
+}
+
+/* Status indicators */
+.status-dot {
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    margin-right: 6px;
+}
+
+.status-online { background-color: var(--cyber-secondary); box-shadow: 0 0 5px var(--cyber-secondary); }
+.status-warning { background-color: var(--cyber-warning); box-shadow: 0 0 5px var(--cyber-warning); }
+.status-danger { background-color: var(--cyber-danger); box-shadow: 0 0 5px var(--cyber-danger); }
+.status-offline { background-color: #444; }
+
+/* Footer */
+.cyber-footer {
+    text-align: center;
+    padding: 2rem 1rem;
+    border-top: 1px solid var(--cyber-grid);
+    color: #444;
+    font-size: 0.75rem;
+    margin-top: 2rem;
+}
+
+.cyber-footer a {
+    color: var(--cyber-primary);
+    text-decoration: none;
+}
+
+.cyber-footer a:hover {
+    text-shadow: 0 0 8px var(--cyber-primary);
+}

@@ -1,0 +1,4 @@
+report_id,title,type,timestamp,status
+RPT-0001,Platform Initialization,system,2024-01-01T00:00:00,completed
+RPT-0002,Sample Network Scan,scan,2024-01-01T00:00:00,completed
+RPT-0003,Sample Domain Analysis,domain,2024-01-01T00:00:00,completed

@@ -1,0 +1,146 @@
+[
+  {
+    "timestamp": "2024-01-01T00:00:00",
+    "type": "SYSTEM",
+    "message": "Platform initialized",
+    "level": "INFO"
+  },
+  {
+    "timestamp": "2024-01-01T00:00:01",
+    "type": "BOOT",
+    "message": "All security modules loaded",
+    "level": "INFO"
+  },
+  {
+    "timestamp": "2026-05-25T14:34:20.078726",
+    "type": "REPORT_GENERATED",
+    "message": "Report RPT-0001 generated: Network Scan: 1.1.1.1",
+    "level": "INFO"
+  },
+  {
+    "timestamp": "2026-05-25T14:34:54.705275",
+    "type": "REPORT_GENERATED",
+    "message": "Report RPT-0002 generated: Network Scan: 10.10.10.10",
+    "level": "INFO"
+  },
+  {
+    "timestamp": "2026-05-25T14:35:12.949804",
+    "type": "REPORT_GENERATED",
+    "message": "Report RPT-0003 generated: Network Scan: 10.10.10.10",
+    "level": "INFO"
+  },
+  {
+    "timestamp": "2026-05-25T14:35:42.118324",
+    "type": "REPORT_GENERATED",
+    "message": "Report RPT-0004 generated: WHOIS: eduphonix.edu.in",
+    "level": "INFO"
+  },
+  {
+    "timestamp": "2026-05-25T14:36:12.768150",
+    "type": "REPORT_GENERATED",
+    "message": "Report RPT-0005 generated: WHOIS: presidencycollege.com",
+    "level": "INFO"
+  },
+  {
+    "timestamp": "2026-05-25T14:36:31.081551",
+    "type": "REPORT_GENERATED",
+    "message": "Report RPT-0006 generated: SSL: presidencycollege.com",
+    "level": "INFO"
+  },
+  {
+    "timestamp": "2026-05-25T14:36:37.810656",
+    "type": "REPORT_GENERATED",
+    "message": "Report RPT-0007 generated: Reputation: presidencycollege.com",
+    "level": "INFO"
+  },
+  {
+    "timestamp": "2026-05-25T14:40:47.675841",
+    "type": "REPORT_GENERATED",
+    "message": "Report RPT-0001 generated: Password Analysis",
+    "level": "INFO"
+  },
+  {
+    "timestamp": "2026-05-25T14:41:21.857456",
+    "type": "REPORT_GENERATED",
+    "message": "Report RPT-0002 generated: Hash: MD5",
+    "level": "INFO"
+  },
+  {
+    "timestamp": "2026-05-25T14:41:40.127016",
+    "type": "REPORT_GENERATED",
+    "message": "Report RPT-0003 generated: Hash: MD5",
+    "level": "INFO"
+  },
+  {
+    "timestamp": "2026-05-25T14:43:19.019750",
+    "type": "REPORT_GENERATED",
+    "message": "Report RPT-0004 generated: Vuln Assessment: 192.168.1.100",
+    "level": "INFO"
+  },
+  {
+    "timestamp": "2026-05-25T14:43:42.523812",
+    "type": "REPORT_GENERATED",
+    "message": "Report RPT-0005 generated: Packet Analytics",
+    "level": "INFO"
+  },
+  {
+    "timestamp": "2026-05-25T14:49:21.709650",
+    "type": "REPORT_GENERATED",
+    "message": "Report RPT-0001 generated: Subdomain Enum: google.com",
+    "level": "INFO"
+  },
+  {
+    "timestamp": "2026-05-25T14:49:39.788941",
+    "type": "REPORT_GENERATED",
+    "message": "Report RPT-0002 generated: Subdomain Enum: presidencycollege.com",
+    "level": "INFO"
+  },
+  {
+    "timestamp": "2026-05-25T14:50:34.164402",
+    "type": "REPORT_GENERATED",
+    "message": "Report RPT-0003 generated: File Analysis: Screenshot_20260522_154923.png",
+    "level": "INFO"
+  },
+  {
+    "timestamp": "2026-05-25T14:50:47.969663",
+    "type": "REPORT_GENERATED",
+    "message": "Report RPT-0004 generated: Vuln Assessment: 192.168.1.100",
+    "level": "INFO"
+  },
+  {
+    "timestamp": "2026-05-25T14:51:01.947678",
+    "type": "REPORT_GENERATED",
+    "message": "Report RPT-0005 generated: Packet Analytics",
+    "level": "INFO"
+  },
+  {
+    "timestamp": "2026-05-25T14:52:04.667654",
+    "type": "REPORT_GENERATED",
+    "message": "Report RPT-0006 generated: Upload Center: 1 files",
+    "level": "INFO"
+  },
+  {
+    "timestamp": "2026-05-25T14:54:40.933819",
+    "type": "REPORT_GENERATED",
+    "message": "Report RPT-0007 generated: DNS: presidencycollege.com",
+    "level": "INFO"
+  },
+  {
+    "timestamp": "2026-05-25T14:55:35.568114",
+    "type": "REPORT_GENERATED",
+    "message": "Report RPT-0008 generated: Network Scan: 1.1.1.1",
+    "level": "INFO"
+  },
+  {
+    "timestamp": "2026-05-25T17:00:41.414282",
+    "type": "REPORT_GENERATED",
+    "message": "Report RPT-0001 generated: Network Scan: 1.1.1.1",
+    "level": "INFO"
+  },
+  {
+    "timestamp": "2026-05-25T17:01:55.021968",
+    "type": "REPORT_GENERATED",
+    "message": "Report RPT-0002 generated: Upload Center: 1 files",
+    "level": "INFO"
+  }
+]
